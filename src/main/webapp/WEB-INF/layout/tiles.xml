@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+    <definition name="base.definition"
+        template="/WEB-INF/layout/layout.jsp">
+        <put-attribute name="title" value="" />
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="menu" value="/WEB-INF/layout/menu.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+    </definition>
+
+    <definition name="home" extends="base.definition">
+        <put-attribute name="title" value="ZWF Helper" />
+        <put-attribute name="body" value="/WEB-INF/body/home.jsp" />
+    </definition>
+    
+    <definition name="swf" extends="base.definition">
+        <put-attribute name="title" value="Scramble Helper" />
+        <put-attribute name="body" value="/WEB-INF/body/swf.jsp" />
+    </definition>
+    
+    <definition name="swfr" extends="base.definition">
+        <put-attribute name="title" value="Scramble Helper" />
+        <put-attribute name="body" value="/WEB-INF/body/swfr.jsp" />
+    </definition>
+    
+    <definition name="wwf" extends="base.definition">
+        <put-attribute name="title" value="Words Helper" />
+        <put-attribute name="body" value="/WEB-INF/body/wwf.jsp" />
+    </definition>
+    
+    <definition name="wwfr" extends="base.definition">
+        <put-attribute name="title" value="Words Helper" />
+        <put-attribute name="body" value="/WEB-INF/body/wwfr.jsp" />
+    </definition>
+    
+    <definition name="hwf" extends="base.definition">
+        <put-attribute name="title" value="Hanging Helper" />
+        <put-attribute name="body" value="/WEB-INF/body/hwf.jsp" />
+    </definition>
+    
+    <definition name="hwfr" extends="base.definition">
+        <put-attribute name="title" value="Hanging Helper" />
+        <put-attribute name="body" value="/WEB-INF/body/hwfr.jsp" />
+    </definition>
+ 
+</tiles-definitions>

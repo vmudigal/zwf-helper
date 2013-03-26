@@ -1,0 +1,65 @@
+@import "//fonts.googleapis.com/css?family=Roboto:100,300,600";
+
+html {
+	margin: 0;
+	padding: 0;
+	/* background: url("../images/paper.jpg") repeat scroll 0 0 #F7F5F5; */
+}
+
+body {
+	background: lightgrey;
+	color: black;
+	font: 13px "Roboto", arial, sans-serif;
+	height: 100%;
+	margin: 0;
+	overflow-x: hidden;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+}
+
+.global-nav {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#333333),to(#222222)); 
+	background-image : -webkit-linear-gradient( to bottom, rgba(0, 0, 0, 0.3),transparent), url("../images/nav.jpg"); 
+	background-image : -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0.3),transparent), url("../images/nav.jpg");
+	background-image : -o-linear-gradient(to bottom, rgba(0, 0, 0, 0.3),transparent), url("../images/nav.jpg");
+	background-image : linear-gradient( to bottom, rgba( 0, 0, 0, 0.3),	transparent), url("../images/nav.jpg");
+	background-image: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0.3),transparent), url("../images/nav.jpg");
+	background-image: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0.3),transparent), url("../images/nav.jpg");
+	background-image: -o-linear-gradient(to bottom, rgba(0, 0, 0, 0.3),transparent), url("../images/nav.jpg");
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3),transparent), url("../images/nav.jpg");
+	background-repeat: repeat-x, repeat;
+	color: ghostwhite;
+}
+
+.tableBox {
+	background: none repeat scroll 0 0 lightgrey;
+    color: black;
+    font-size: 40px;
+    height: 46px;
+    padding: 10px;
+    width: 46px;
+}
+
+.menuItem {
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	/* font-weight: bold; */
+}
+
+.errorblock {
+	color: #FF0000;
+    padding-top: 5px;
+}
+
+.pageTitle {
+	font-size: 20px;
+	padding-bottom:15px;
+}
+
+.logo {
+	color: lightgrey;
+    font: bold 18px "Roboto",arial,sans-serif;
+    text-decoration: none;
+}
